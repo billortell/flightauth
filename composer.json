@@ -1,12 +1,11 @@
 {
   "name": "billortell/flightauth",
-  "description": "description",
-  "minimum-stability": "stable",
-  "license": "proprietary",
+  "description": "DB object implementation for use with FlightPHP",
+  "license": "public",
   "authors": [
     {
-      "name": "admin",
-      "email": "email@example.com"
+      "name": "Bill Ortell",
+      "email": "bill.ortell@gmail.com"
     }
   ],
   "autoload": {
