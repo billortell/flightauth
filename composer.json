@@ -1,0 +1,22 @@
+{
+  "name": "billortell/flightauth",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "admin",
+      "email": "email@example.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "FlightAuth\Db\\": "src/"
+    }
+  },
+  "require": {
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+
+}
