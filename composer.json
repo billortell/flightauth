@@ -10,7 +10,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "FlightAuth\Db\\": "src/"
+      "FlightAuth\\Db\\": "src/"
     }
   },
   "minimum-stability": "stable",
