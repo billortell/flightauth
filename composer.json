@@ -12,8 +12,5 @@
     "psr-4": {
       "FlightAuth\\Db\\": "src/"
     }
-  },
-  "minimum-stability": "stable",
-  "prefer-stable": true
-
+  }
 }
