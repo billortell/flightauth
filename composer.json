@@ -1,7 +1,7 @@
 {
   "name": "billortell/flightauth",
   "description": "DB object implementation for use with FlightPHP",
-  "license": "public",
+  "license": "proprietary",
   "authors": [
     {
       "name": "Bill Ortell",
@@ -12,8 +12,6 @@
     "psr-4": {
       "FlightAuth\Db\\": "src/"
     }
-  },
-  "require": {
   },
   "minimum-stability": "stable",
   "prefer-stable": true
