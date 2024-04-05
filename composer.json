@@ -14,5 +14,8 @@
     }
   },
   "minimum-stability": "stable",
-  "prefer-stable": true
+  "prefer-stable": true,
+  "require": {
+    "delight-im/auth": "^8.3"
+  }
 }
