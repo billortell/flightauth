@@ -16,6 +16,7 @@
   "minimum-stability": "stable",
   "prefer-stable": true,
   "require": {
-    "delight-im/auth": "^8.3"
+    "delight-im/auth": "^8.3",
+    "mikecao/flight": "^3.7"
   }
 }
