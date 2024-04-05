@@ -1,6 +1,6 @@
 {
   "name": "billortell/flightauth",
-  "description": "DB object implementation for use with FlightPHP",
+  "description": "Authentication basics for use with FlightPHP.",
   "license": "proprietary",
   "authors": [
     {
@@ -12,5 +12,7 @@
     "psr-4": {
       "FlightAuth\\": "src/"
     }
-  }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
 }
