@@ -16,6 +16,7 @@
   "require": {
     "php": "^8.1",
     "delight-im/auth": "^8.3",
-    "mikecao/flight": "^3.7"
+    "mikecao/flight": "^3.7",
+    "vlucas/phpdotenv": "^3.7"
   }
 }
