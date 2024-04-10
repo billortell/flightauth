@@ -1016,7 +1016,7 @@ class Auth extends AuthAbstract
     public function changeEmailConfirmation($selector, $token)
     {
         $verification_link = Flight::createVerificationLink($selector, $token);
-        Flight::eventManager()->notify('changeemailsuccess', ['verification_link'=>$verification_link]);
+        $this->getEventManager()->notify('changeemailsuccess', ['verification_link'=>$verification_link]);
     }
 
     /***
@@ -1030,7 +1030,7 @@ class Auth extends AuthAbstract
     public function registrationConfirmationEmail($selector, $token)
     {
         $verification_link = Flight::createVerificationLink($selector, $token);
-        Flight::eventManager()->notify('registrationconfirmation', ['verification_link'=>$verification_link]);
+        $this->getEventManager()->notify('registrationconfirmation', ['verification_link'=>$verification_link]);
     }
 
     /***
@@ -1044,7 +1044,7 @@ class Auth extends AuthAbstract
     public function verificationEmailResend($selector, $token)
     {
         $verification_link = Flight::createVerificationLink($selector, $token);
-        Flight::eventManager()->notify('verificationemailresend', ['verification_link'=>$verification_link]);
+        $this->getEventManager()->notify('verificationemailresend', ['verification_link'=>$verification_link]);
     }
 
     /***
@@ -1057,7 +1057,7 @@ class Auth extends AuthAbstract
      */
     public function changePasswordSuccess($email)
     {
-        Flight::eventManager()->notify('changepasswordsuccess', ['email'=>$email]);
+        $this->getEventManager()->notify('changepasswordsuccess', ['email'=>$email]);
     }
 
     /***
