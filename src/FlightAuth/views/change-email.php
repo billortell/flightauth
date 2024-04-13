@@ -6,7 +6,7 @@
  */
 ?>
 <div class="text-center mb-5 ">
-    <h1 class="fw-bolder">Change Email</h1>
+    <h1 >Change Email</h1>
 </div>
 <div class="justify-content-center text-center">
     <form class="form-floating" action="<?php echo $rel_uri;?>/change-email" method="post" accept-charset="utf-8">

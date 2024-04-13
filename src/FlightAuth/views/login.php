@@ -6,7 +6,7 @@
  */
 ?>
 <div class="text-center mb-5 ">
-    <h1 class="fw-bolder">Login</h1>
+    <h1 >Login</h1>
     <p class=" mb-4">
         Welcome back!
     </p>

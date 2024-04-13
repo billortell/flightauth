@@ -6,7 +6,7 @@
  */
 ?>
 <div class="text-center mb-5">
-    <h1 class="fw-bolder">Profile</h1>
+    <h1>Profile</h1>
 </div>
 <div class="justify-content-center left">
 

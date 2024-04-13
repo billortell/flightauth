@@ -6,7 +6,7 @@
  */
 ?>
 <div class="text-center mb-5 ">
-    <h1 class="fw-bolder">
+    <h1 >
         Oops!
     </h1>
 </div>

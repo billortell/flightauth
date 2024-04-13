@@ -6,7 +6,7 @@
  */
 ?>
 <div class="text-center mb-5 ">
-    <h1 class="fw-bolder">
+    <h1>
         Thanks for registering
     </h1>
 </div>

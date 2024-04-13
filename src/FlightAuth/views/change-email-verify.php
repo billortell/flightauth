@@ -7,7 +7,7 @@
  */
 ?>
 <div class="text-center mb-5 ">
-    <h1 class="fw-bolder">
+    <h1>
         Verification needed
     </h1>
 </div>

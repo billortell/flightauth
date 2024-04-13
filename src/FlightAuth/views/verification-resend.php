@@ -6,7 +6,7 @@
  */
 ?>
 <div class="text-center mb-5 ">
-    <h1 class="fw-bolder">Let's verify your account!</h1>
+    <h1>Let's verify your account!</h1>
 </div>
 <div class="justify-content-center text-center">
 

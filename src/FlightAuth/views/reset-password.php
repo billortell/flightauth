@@ -6,7 +6,7 @@
  */
 ?>
 <div class="text-center mb-5 ">
-    <h1 class="fw-bolder">Reset Password</h1>
+    <h1>Reset Password</h1>
     <p class=" mb-4">
         Now, let's reset that password.
     </p>

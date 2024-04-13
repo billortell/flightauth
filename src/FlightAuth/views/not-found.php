@@ -6,7 +6,7 @@
  */
 ?>
 <div class="text-center mb-5 ">
-    <h1 class="fw-bolder">Uh, this is awkward....</h1>
+    <h1>Uh, this is awkward....</h1>
 </div>
 <div class="justify-content-center text-center">
     <p class=" mb-4">

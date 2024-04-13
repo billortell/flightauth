@@ -6,7 +6,7 @@
  */
 ?>
 <div class=" mb-5 ">
-    <h1 class="fw-bolder"><?= $title; ?></h1>
+    <h1 ><?= $title; ?></h1>
 </div>
 <div class="justify-content-center">
     <p class=" mb-4">
