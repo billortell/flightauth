@@ -5,6 +5,7 @@ namespace FlightAuth;
 use Flight;
 use FlightAuth\Exceptions\AuthUserDetailsException;
 use FlightAuth\Exceptions\AuthUserNotExistsException;
+use FlightAuth\Factory\User;
 use FlightAuth\Middleware\AuthMiddleware;
 use FlightAuth\Events\EventChangeEmailSuccess;
 use FlightAuth\Events\EventManager;
@@ -494,8 +495,8 @@ class Auth extends AuthAbstract
                 Flight::redirect('/forgot-password');
                 exit();
             }
-
         });
+
 
         /**
          * @OA\Get(
